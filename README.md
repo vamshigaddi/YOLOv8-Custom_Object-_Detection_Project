@@ -64,8 +64,4 @@ model = YOLO('yolov8s.pt')  # load a pretrained model (recommended for training)
 results = model.train(data='path to the data.yaml', epochs=10, imgsz=224,plots=True)
 ```
 
-## License
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
-
-[![MIT License](https://img.shields.io/badge/License-MIT-green.svg)](https://choosealicense.com/licenses/mit/)
 
